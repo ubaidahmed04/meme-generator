@@ -1,1 +1,67 @@
-
+.header{
+    background-image: linear-gradient(
+        to bottom right,
+        #403F44,#1E1B32
+    );
+    padding: 15px;
+}
+.meme-heading{
+    text-align: center;
+    text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 3px;
+    color: #FFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-content{
+    padding: 10px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .image {
+    display: block;
+    overflow: hidden;
+    background-color: rgb(229, 229, 238);
+    border-radius: 20px;
+    /* padding: 10px; */
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+ .title{
+    font-size: 20px;
+    color: aqua;
+ } 
+ .edit-content{
+    background-image: linear-gradient(
+        to bottom right,
+        #FF9E68,#FF68DE
+    );
+ }
+ .caption{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+ }
+ .input-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 19px;
+ }
+ .text-show{
+    cursor: pointer;
+ }
